@@ -1,0 +1,26 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:w": "webpack  --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.0",
+    "html-loader": "^3.1.0",
+    "image-loader": "^0.0.1",
+    "loader": "^2.1.1",
+    "style": "^0.0.3",
+    "style-loader": "^3.3.1"
+  }
+}
